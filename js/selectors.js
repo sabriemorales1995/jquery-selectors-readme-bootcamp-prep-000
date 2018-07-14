@@ -10,5 +10,13 @@ function lastImageSelector(){
 }
 
 function ninjaBabySelector(){
-  return $('#ninjaBaby')
+  return $('#baby-ninja');
+}
+
+function divSelector(){
+  return $(div .pics)
+}
+
+function firstListItem(){
+  return $('ul li:first child #pic-list');
 }
